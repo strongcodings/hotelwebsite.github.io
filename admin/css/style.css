@@ -1,0 +1,49 @@
+
+* {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+  }
+  
+  
+  .custom-bg {
+    border: 1px solid rgb(115, 138, 177);
+    background: rgb(115, 138, 177);
+  }
+ 
+
+  .custom-bg:hover {
+    background: rgb(85, 95, 111);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+
+  .carousel-inner .d-block {
+    height: 450px;
+    
+  }
+  /* facilities */
+
+  #deshboard-menu{
+    position: fixed;
+    height: 100%;
+  }
+ 
+@media screen and (max-width:991px) {
+  #deshboard-menu{
+    position: fixed;
+    height: auto;
+    width: 100%;
+  }
+  #main-content{
+    margin-top: 60px;
+  }
+}
+
+  
+
+  
